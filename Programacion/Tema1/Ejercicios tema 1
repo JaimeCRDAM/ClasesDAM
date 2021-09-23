@@ -1,0 +1,109 @@
+1.-
+
+a)  Int 
+b)  Float
+c)  Int
+d)  Float 
+e)  String
+f)  String
+g)  Boolean
+h)  String
+i)  String
+j)  String
+k)  String
+i)  String
+
+
+2.-
+
+a)  Correcto, no hay valores ilegales
+b)  Correcto, no hay valores ilegales
+c)  Incorrecto, variables no pueden ser Strings
+d)  Incorrecto, variables no pueden empezar por numeros
+e)  Incorrecto, variables deben contener acentos
+f)  Incorrecto, variables deben contener ñ
+g)  Incorrecto, variables deben contener ñ
+h)  Incorrecto, variables deben contener ñ
+i)  Correcto, no hay valores ilegales
+j)  Correcto, no hay valores ilegales
+k)  Correcto, no hay valores ilegales
+i)  Correcto, no hay valores ilegales
+
+3.-
+
+a)  3
+b)  1
+c)  -15
+d)  279 
+e)  3
+f)  1
+g)  1
+h)  0
+i)  893
+j)  9
+k)  0
+i)  18?
+m)  0
+n)  5
+o)  98
+p)  Verdadero
+q)  False
+r)  False
+s)  False
+
+4.-
+
+a)  (m/n)+a
+b)  n+(x/(x-y))-m 
+c)  (x+y)/(a-b)
+d)  2*((sinx+consy)/tan(x-y^2)) 
+e)  (a+(x/y^2))/(b-((a^(x+3)/y)))
+f)  (-b square(b^2-4*a*c))/(2*a)
+g)  (1+x)^(n*(square(a^2+b^2)/x^2))
+h)  1 + (n*x)/1!+((n*(n-1)*x^2)/2!)
+
+5.-
+
+a)  Valida   
+b)  Valida
+c)  No, es string
+d)  Valida
+e)  No, es int
+f)  Valida
+g)  Valida
+h)  Valida
+i)  No, es float
+j)  valida
+k)  no, es string
+i)  no, es boolean
+m)  no, es int
+n)  no, es float
+o)  no, es boolean
+
+6.-
+
+a) 180, 12, 15
+b) No se elevar float con int
+c) 0, 3, false
+d) "b", "a"
+
+7.-
+EncenderTelefono() #Se enciende el telefono
+borrar = "Fernando" #Declaramos el nombre a borrar
+contactos = contactos() #Declaramos el array de contactos
+if borrar in contactos: #Loop en los contactos hasta encontrar el que buscamos
+    contactos.pop(borrar) #Lo quitamos del array
+
+8.-
+
+centro = centro()
+datos = yo()
+
+centro.IrA("Salon de actos")
+centro.BuscarClase(315)
+centro.
+
+
+
+
+
