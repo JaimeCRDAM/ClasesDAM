@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libro>
+<libro>
+    <titulo>XML Practico</titulo>
+    <autor>Sebastien Lecomte</autor>
+    <autor>Thierry boulanger</autor>
+    <editorial>ediciones Eni</editorial>
+    <isbn>978-2-7460-4958</isbn>
+    <edicion>1</edicion>
+    <paginas>347</paginas>
+
+</libro>
