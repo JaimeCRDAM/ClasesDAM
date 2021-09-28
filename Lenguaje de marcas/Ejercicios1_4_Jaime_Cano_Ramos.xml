@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Arboles>
+<Arboles>
+
+    <Arbol nombrecomun = "Arce de Montpellier"   Vegetación="Caducifolio" altura="De 6 a 10 metros"    forma="Copa esférica. Tronco principal recto con bifurcaciones. Ramaje colgante" colorTemporada="Haz verde brillante, envés verde blanquecino" ResistenciaHielo="Heladas fuertes (hasta -15ºC)"></Arbol>
+    <Arbol nombrecomun = "Olivo"   Vegetación="Perenne" altura="De 8 a 15 metros"    forma="Copa irregular. Tronco principal irregular con bifurcaciones." colorTemporada="Haz verde oscuro, envés verde plateado" ResistenciaHielo="Heladas medias (hasta -10ºC)"></Arbol>
+    <Arbol nombrecomun = "Platano"   Vegetación="Caducifolio" altura="De 20 a 25 metros"    forma="Copa ovoidal. Tronco principal recto. Ramaje expandido" colorTemporada="Primavera: Haz verde medio, enves verde claro Otoño:Ocre" ResistenciaHielo="Heladas fuertes (hasta -20ºC)"></Arbol>
+    <Arbol nombrecomun = "Encina"   Vegetación="Perenne" altura="En torno a 25 metros"    forma="Copa esférica o elíptica irregular. Tronco principal recto. Ramaje tortuoso" colorTemporada="Plateado en hojas jóvenes. En hojas antiguas, haz verde oscuro, envés plateado " ResistenciaHielo="Heladas fuertes (hasta -15ºC)"></Arbol>
+
+
+</Arboles>
