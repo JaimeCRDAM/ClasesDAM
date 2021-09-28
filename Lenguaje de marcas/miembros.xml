@@ -3,11 +3,11 @@
 <miembros>
     <alumnos xmlns:alumnos="http://ASIR/alumnos"/>
     <profesores xmlns:profesores="http://ASIR/profesores"/>
-    <asistentes>
-        <alumnos>Fernando Fernandez Gonzalez</alumnos>
-        <alumnos>Isabel Gonzalez Fernandez</alumnos>
-        <alumnos>Ricardo Martinez Lopez</alumnos>
-        <profesores>Pilar ruiz Perez</profesores>
-        <profesores>Tomas Garcia</profesores>              
-    </asistentes>
+        <asistentes>
+            <alumnos:nombre>Fernando Fernandez Gonzalez</alumnos:nombre>
+            <alumnos>Isabel Gonzalez Fernandez</alumnos>
+            <alumnos>Ricardo Martinez Lopez</alumnos>
+            <profesores>Pilar ruiz Perez</profesores>
+            <profesores>Tomas Garcia</profesores>              
+        </asistentes>
 </miembros>
