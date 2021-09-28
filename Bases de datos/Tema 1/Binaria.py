@@ -3,6 +3,8 @@ print("numero del 0 al 20")
 Busqueda = input()
 NumeroABuscar = input()
 
+_Auxiliar1 = Vector[:len(Vector)//2]
+_Auxiliar2 = Vector[len(Vector)//2]
 
 Loops = 0
 if Busqueda == "Binaria":
@@ -18,8 +20,6 @@ if Busqueda == "Binaria":
             _Auxiliar1 = _Auxiliar2[:len(_Auxiliar2)//2]
             _Auxiliar2 = _Auxiliar2[len(_Auxiliar2)//2:]
         Loops += 1
-        _Auxiliar1 = Vector[:len(Vector)//2]
-        _Auxiliar2 = Vector[len(Vector)//2]
 else:
     for numero in Vector:
         if numero == int(NumeroABuscar):
