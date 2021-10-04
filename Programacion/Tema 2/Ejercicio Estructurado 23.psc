@@ -8,8 +8,8 @@ FinAlgoritmo
 
 Funcion Return <- Factorial ( N )
 	si N > 1 Entonces
-		Return = N * Factorial(N-1)
+		Return = N * Factorial(N-1);
 	SiNo
-		Return = 1
+		Return = 1;
 	FinSi
 Fin Funcion
