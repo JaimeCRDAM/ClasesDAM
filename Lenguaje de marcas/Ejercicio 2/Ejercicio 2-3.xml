@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<marcadores>
+    <marcador>
+        <nombre>Abrirllave</nombre>
+        <descripcion>Tutoriales de informática.</descripcion>
+        <link>http://www.abrirllave.com/</link>
+    </marcador>
+    <marcador>
+        <nombre>Wikipedia</nombre>
+        <descripcion>La enciclopedia libre.</descripcion>
+        <link>http://www.wikipedia.org</link>
+    </marcador>
+    <marcador>
+        <nombre>W3C</nombre>
+        <descripcion>World Wide Web Consortium.</descripcion>
+        <link>http://www.w3.org</link>
+    </marcador> 
+</marcadores>

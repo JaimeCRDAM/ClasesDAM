@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE Informacion>
-<Informacion>
-    <Destinatario nombre="Juan Delgado Martinez"/>
-    <Articulo articulo="bicicleta A2023"/>
-    <Direccion Calle="Barco" numero="4" piso="3" letra="A"/>
-    <Entrega dia="15" mes="5" año="2000"/>
-</Informacion>

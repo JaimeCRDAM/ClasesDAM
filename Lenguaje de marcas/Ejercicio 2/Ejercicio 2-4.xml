@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<equipos>
+    <equipo nombre = "Real Madrid" ciudad = "Madrid" entrenador = "alguien">
+        <jugadores>
+            <jugador posicion = "Portero">Iker Casillas, Español</jugador>
+            <jugador posicion = "Delantero">Cristiano Ronaldo, Portuges</jugador>
+        </jugadores>
+    </equipo>
+    <equipo nombre = "Barcelona" ciudad = "Barcelona" entrenador = "alguien pero no">
+        <jugadores>
+            <jugador posicion = "Portero">ter Stegen, Aleman</jugador>
+            <jugador posicion = "Delantero">Sergio Agüero, Argentino</jugador>
+        </jugadores>
+    </equipo>
+</equipos>
