@@ -11,7 +11,7 @@ Funcion Adivina()
 	Definir G, N Como Entero;
 	N = aleatorio(1, 100);
 	Escribir "Adivina el numero";
-	para i desde 1 hasta 5 Hacer
+	para i desde 1 hasta 7 Hacer
 		Leer G;
 		si G == N Entonces
 			Escribir "Era el numero ", N;
