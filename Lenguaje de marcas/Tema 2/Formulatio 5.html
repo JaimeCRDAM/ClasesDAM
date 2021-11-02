@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
     <style>
-
     </style>
+    <script>
+        function Actualizar()
+        {
+            TextBox.value = files.value
+        }
+    </script>
     <head>
         <h1>Rellena tu CV</h1>
     </head>
@@ -20,7 +25,9 @@
             <input type="radio" name ="sexo" value ="Hombre">Hombre<br>
             <input type="radio" name ="sexo" value ="Mujer">Mujer<br>
             <label>Incluir documento</label>
-            <input id="files" type="file">
+            <input id = "TextBox" type="text" value = "">
+            <label for="files" class="btn">Selecciona Imagen</label>
+            <input id="files" style="visibility:hidden;" oninput="Actualizar()">
             <label></label><br>
         </form>
         
