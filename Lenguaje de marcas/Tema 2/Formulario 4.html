@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        select option:hover{
+            background-color: white;
+            color: blue;
+        }
+        #thingy{
+            background-color: white;
+            color: black;
+        }
+
+
+        #bigthingy{
+            background-color: black;
+            color: white;
+        }
+    </style>
+    <head>
+        <h1>Datos Seleccionables</h1>
+    </head>
+    <body>
+        <form>
+            <label for="cars">Programa Seleccionado</label>
+            <select >
+              <optgroup id = "bigthingy" label="Sistemas Operativos">
+                <option id = "thingy">Windows</option>
+                <option id = "thingy">Mac</option>
+                <option id = "thingy">Linux</option>
+                <option id = "thingy">Otro</option>
+              </optgroup>
+              <optgroup id = "bigthingy" label="Navegadores">
+                <option id = "thingy">Internet Explorer</option>
+                <option id = "thingy">Firefox</option>
+                <option id = "thingy">Safari</option>
+                <option id = "thingy">Opera</option>
+                <option id = "thingy">Otro</option>
+              </optgroup>
+            </select>
+        </form>
+    </body>
+</html>
