@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <style>
+    </style>
+    <script>
+        function Actualizar()
+        {
+            TextBox.value = files.value
+        }
+    </script>
+    <head>
+    </head>
+    <body>
+        <form style="border: 1mm; width: 25%;">
+            <fieldset>
+                <legend>Datos Basicos</legend>
+                <label>Nombre</label><br>
+                <input type="text"><br>
+                <label>Descripcion</label>
+                <textarea>
+                
+                </textarea><br>
+                <label for="files" class="btn">Foto</label>
+                <input id = "TextBox" type="text" value = ""><br>
+                <input id="files" style="visibility:hidden;" oninput="Actualizar()" type="file">
+                <input type="checkbox"><label>Añadir contador de visitas</label>
+            </fieldset>
+            <fieldset>
+                <legend>Datos Economicos</legend>
+                <label>Precio</label><input type="number" style="width: 10%;">$        Impuestos<select><option>4%</option><option>7%</option><option>16%</option><option>25%</option></select>
+                <label>Promocion</label><br>
+                <input type="radio" name ="sexo" value ="Ninguno">Ninguno<br>
+                <input type="radio" name ="sexo" value ="Transporte gratuito">Transporte gratuito<br>
+                <input type="radio" name ="sexo" value ="Descuento 5%">Descuento 5%<br>
+
+            </fieldset>
+        </form>
+    </body>
+</html>
