@@ -23,19 +23,17 @@ public class Innit {
             pannel.get(i).add(new JTextArea(text));
             button.add(new JButton("Presionar"));
             button.get(i).addActionListener(new ActionListener() {
-
                 @Override
                 public void actionPerformed(ActionEvent e) {
                     ChangeVisible(ActivePanel, pannel.get(a));
-                    
                 }
             });
             ButtonPannel.add(button.get(i));
             pannel.get(i).setVisible(false);
         }
 
-        pannel.get(0).setVisible(true);
-        ActivePanel = pannel.get(0);
+        pannel.get(1).setVisible(true);
+        ActivePanel = pannel.get(1);
         frame1.setVisible(true);
 
     }
