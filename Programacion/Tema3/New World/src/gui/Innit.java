@@ -2,38 +2,48 @@ package gui;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
-public class Innit {   
+import java.util.*;
+public class Innit {
+    static JFrame frame1;
+    static ArrayList<JPanel> pannel = new ArrayList<JPanel>();
+    static ArrayList<JTextArea> text = new ArrayList<JTextArea>();
+    static ArrayList<JButton> button = new ArrayList<JButton>();
+    static JPanel ActivePanel;
     public static void main() {      
-        JFrame frame1 = new JFrame("Mi primera GUI");
+        frame1 = new JFrame("Mi primera GUI");
         frame1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);      
         frame1.setSize(300, 300);
-
-        JPanel pannel1 = new JPanel();
-        JTextArea text = new JTextArea("Me Cago en tu puta madre");
-        pannel1.add(text);
-        frame1.add(pannel1);
-
-
-
         JPanel ButtonPannel  = new JPanel();
-        ButtonPannel .setLayout(new GridLayout(0, 5));
+        ButtonPannel.setLayout(new GridLayout(0, 5));
         frame1.add(ButtonPannel, BorderLayout.PAGE_END);
+        for(int i = 0; i < 5; i++){
+            int a = i;
+            pannel.add(new JPanel());
+            String text = String.format("Panel %d",i+1);
+            pannel.get(i).add(new JTextArea(text));
+            button.add(new JButton("Presionar"));
+            button.get(i).addActionListener(new ActionListener() {
 
-        JButton Button1 = new JButton("Presionar");
-        ButtonPannel.add(Button1);
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                    ChangeVisible(ActivePanel, pannel.get(a));
+                    
+                }
+            });
+            ButtonPannel.add(button.get(i));
+            pannel.get(i).setVisible(false);
+        }
 
-        JButton Button2= new JButton("Presionar");
-        ButtonPannel.add(Button2);
-
-        JButton Button3= new JButton("Presionar");
-        ButtonPannel.add(Button3);
-
-        JButton Button4= new JButton("Presionar");
-        ButtonPannel.add(Button4);
-
-        JButton Button5= new JButton("Presionar");
-        ButtonPannel.add(Button5);
-        
+        pannel.get(0).setVisible(true);
+        ActivePanel = pannel.get(0);
         frame1.setVisible(true);
+
+    }
+    public static void ChangeVisible(JPanel a, JPanel b){
+            a.setVisible(false);
+            frame1.remove(a);
+            frame1.add(b);
+            ActivePanel = b;
+            ActivePanel.setVisible(true);
     }
 }
