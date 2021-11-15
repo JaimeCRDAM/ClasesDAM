@@ -21,7 +21,8 @@ public class Innit {
             pannel.add(new JPanel());
             String text = String.format("Panel %d",i+1);
             pannel.get(i).add(new JTextArea(text));
-            button.add(new JButton("Presionar"));
+            String panel = String.format("Panel %d",i+1);
+            button.add(new JButton(panel));
             button.get(i).addActionListener(new ActionListener() {
                 @Override
                 public void actionPerformed(ActionEvent e) {
