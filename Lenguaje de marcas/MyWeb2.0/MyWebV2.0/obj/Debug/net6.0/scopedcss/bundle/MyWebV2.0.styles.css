@@ -1,3 +1,117 @@
+/* _content/MyWebV2.0/Pages/Libros_recomendados.razor.rz.scp.css */
+.esta_pagina[b-nusrafdcf3] {
+    font-weight: bolder;
+}
+
+.links[b-nusrafdcf3] {}
+
+.contenedor_libro[b-nusrafdcf3] {
+    height: fit-content;
+}
+
+.libro[b-nusrafdcf3] {
+    display: none;
+}
+
+.libro_img[b-nusrafdcf3] {
+    overflow: hidden;
+    float: left;
+
+}
+
+.titulo_libro[b-nusrafdcf3] {
+    overflow: hidden;
+    text-align: left;
+}
+.descripcion[b-nusrafdcf3]{
+    overflow: hidden;
+}
+
+.anterior[b-nusrafdcf3], .siguiente[b-nusrafdcf3] {
+    cursor: pointer;
+    width: 50%;
+    padding: 16px;
+    margin-top: -22px;
+    color: #234b9d;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+/* _content/MyWebV2.0/Shared/Header.razor.rz.scp.css */
+button[b-zfoe659jav]{
+    border: 0;
+    background-color: inherit;
+}
+img[b-zfoe659jav]{
+    max-width:100%;
+    max-height:100%;
+}
+/* _content/MyWebV2.0/Shared/Links.razor.rz.scp.css */
+.navbar-toggler[b-i60etcamt3] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-i60etcamt3] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-i60etcamt3] {
+    font-size: 1.1rem;
+}
+
+.oi[b-i60etcamt3] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-i60etcamt3] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-i60etcamt3] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-i60etcamt3] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-i60etcamt3]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-i60etcamt3]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-i60etcamt3]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-i60etcamt3] {
+        display: none;
+    }
+
+    .collapse[b-i60etcamt3] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+}
+
 /* _content/MyWebV2.0/Shared/MainLayout.razor.rz.scp.css */
 .page[b-zeunz5cd8e] {
     position: relative;
@@ -12,14 +126,16 @@ main[b-zeunz5cd8e] {
 .sidebar[b-zeunz5cd8e] {
     background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
 }
+.rightBar[b-zeunz5cd8e] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
 
 .top-row[b-zeunz5cd8e] {
     background-color: #f7f7f7;
     border-bottom: 1px solid #d6d5d5;
-    justify-content: flex-end;
-    height: 3.5rem;
-    display: flex;
-    align-items: center;
+    height: fit-content;
+    margin: 0 auto;
+    text-align: center;
 }
 
     .top-row[b-zeunz5cd8e]  a, .top-row .btn-link[b-zeunz5cd8e] {

@@ -1,0 +1,40 @@
+.esta_pagina[b-nusrafdcf3] {
+    font-weight: bolder;
+}
+
+.links[b-nusrafdcf3] {}
+
+.contenedor_libro[b-nusrafdcf3] {
+    height: fit-content;
+}
+
+.libro[b-nusrafdcf3] {
+    display: none;
+}
+
+.libro_img[b-nusrafdcf3] {
+    overflow: hidden;
+    float: left;
+
+}
+
+.titulo_libro[b-nusrafdcf3] {
+    overflow: hidden;
+    text-align: left;
+}
+.descripcion[b-nusrafdcf3]{
+    overflow: hidden;
+}
+
+.anterior[b-nusrafdcf3], .siguiente[b-nusrafdcf3] {
+    cursor: pointer;
+    width: 50%;
+    padding: 16px;
+    margin-top: -22px;
+    color: #234b9d;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}

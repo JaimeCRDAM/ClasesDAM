@@ -25,3 +25,6 @@
 /home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/obj/Debug/net6.0/MyWebV2.0.pdb
 /home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/obj/Debug/net6.0/MyWebV2.0.genruntimeconfig.cache
 /home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/obj/Debug/net6.0/ref/MyWebV2.0.dll
+/home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/obj/Debug/net6.0/scopedcss/Shared/Links.razor.rz.scp.css
+/home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/obj/Debug/net6.0/scopedcss/Shared/Header.razor.rz.scp.css
+/home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/obj/Debug/net6.0/scopedcss/Pages/Libros_recomendados.razor.rz.scp.css

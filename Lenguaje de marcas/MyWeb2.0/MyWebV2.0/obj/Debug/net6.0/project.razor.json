@@ -12,39 +12,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -1601333220,
-        "Kind": "Components.Component",
-        "Name": "MyWebV2._0.Pages.FetchData",
-        "AssemblyName": "MyWebV2.0",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MyWebV2._0.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": -1603970593,
-        "Kind": "Components.Component",
-        "Name": "MyWebV2._0.Pages.FetchData",
-        "AssemblyName": "MyWebV2.0",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MyWebV2._0.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MyWebV2._0.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 198896917,
         "Kind": "Components.Component",
         "Name": "MyWebV2._0.Pages.Index",
@@ -131,35 +98,68 @@
         }
       },
       {
-        "HashCode": 2017094746,
+        "HashCode": 1303941296,
         "Kind": "Components.Component",
-        "Name": "MyWebV2._0.App",
+        "Name": "MyWebV2._0.Pages.Libros_recomendados",
         "AssemblyName": "MyWebV2.0",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "Libros_recomendados"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MyWebV2._0.App"
+          "Common.TypeName": "MyWebV2._0.Pages.Libros_recomendados"
         }
       },
       {
-        "HashCode": -1796344059,
+        "HashCode": -358891387,
         "Kind": "Components.Component",
-        "Name": "MyWebV2._0.App",
+        "Name": "MyWebV2._0.Pages.Libros_recomendados",
         "AssemblyName": "MyWebV2.0",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "MyWebV2._0.App"
+            "TagName": "MyWebV2._0.Pages.Libros_recomendados"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MyWebV2._0.App",
+          "Common.TypeName": "MyWebV2._0.Pages.Libros_recomendados",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1601333220,
+        "Kind": "Components.Component",
+        "Name": "MyWebV2._0.Pages.FetchData",
+        "AssemblyName": "MyWebV2.0",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyWebV2._0.Pages.FetchData"
+        }
+      },
+      {
+        "HashCode": -1603970593,
+        "Kind": "Components.Component",
+        "Name": "MyWebV2._0.Pages.FetchData",
+        "AssemblyName": "MyWebV2.0",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MyWebV2._0.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyWebV2._0.Pages.FetchData",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -217,35 +217,35 @@
         }
       },
       {
-        "HashCode": -2052486864,
+        "HashCode": 502096698,
         "Kind": "Components.Component",
-        "Name": "MyWebV2._0.Shared.NavMenu",
+        "Name": "MyWebV2._0.Shared.Links",
         "AssemblyName": "MyWebV2.0",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "Links"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MyWebV2._0.Shared.NavMenu"
+          "Common.TypeName": "MyWebV2._0.Shared.Links"
         }
       },
       {
-        "HashCode": -1678576238,
+        "HashCode": 826424568,
         "Kind": "Components.Component",
-        "Name": "MyWebV2._0.Shared.NavMenu",
+        "Name": "MyWebV2._0.Shared.Links",
         "AssemblyName": "MyWebV2.0",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "MyWebV2._0.Shared.NavMenu"
+            "TagName": "MyWebV2._0.Shared.Links"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MyWebV2._0.Shared.NavMenu",
+          "Common.TypeName": "MyWebV2._0.Shared.Links",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -342,6 +342,105 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "MyWebV2._0.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1193456392,
+        "Kind": "Components.Component",
+        "Name": "MyWebV2._0.Shared.Header",
+        "AssemblyName": "MyWebV2.0",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Header"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyWebV2._0.Shared.Header"
+        }
+      },
+      {
+        "HashCode": -746549332,
+        "Kind": "Components.Component",
+        "Name": "MyWebV2._0.Shared.Header",
+        "AssemblyName": "MyWebV2.0",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MyWebV2._0.Shared.Header"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyWebV2._0.Shared.Header",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -2052486864,
+        "Kind": "Components.Component",
+        "Name": "MyWebV2._0.Shared.NavMenu",
+        "AssemblyName": "MyWebV2.0",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyWebV2._0.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": -1678576238,
+        "Kind": "Components.Component",
+        "Name": "MyWebV2._0.Shared.NavMenu",
+        "AssemblyName": "MyWebV2.0",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MyWebV2._0.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyWebV2._0.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 2017094746,
+        "Kind": "Components.Component",
+        "Name": "MyWebV2._0.App",
+        "AssemblyName": "MyWebV2.0",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyWebV2._0.App"
+        }
+      },
+      {
+        "HashCode": -1796344059,
+        "Kind": "Components.Component",
+        "Name": "MyWebV2._0.App",
+        "AssemblyName": "MyWebV2.0",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MyWebV2._0.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyWebV2._0.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -16637,6 +16736,11 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "/home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/Shared/Header.razor",
+      "TargetPath": "Shared\\Header.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "/home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/Pages/Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
@@ -16649,6 +16753,11 @@
     {
       "FilePath": "/home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/Shared/NavMenu.razor",
       "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/Shared/Links.razor",
+      "TargetPath": "Shared\\Links.razor",
       "FileKind": "component"
     },
     {
@@ -16670,6 +16779,11 @@
       "FilePath": "/home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/Pages/_Layout.cshtml",
       "TargetPath": "Pages\\_Layout.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/Pages/Libros_recomendados.razor",
+      "TargetPath": "Pages\\Libros_recomendados.razor",
+      "FileKind": "component"
     },
     {
       "FilePath": "/home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/Pages/_Host.cshtml",

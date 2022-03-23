@@ -1,0 +1,15 @@
+@page "/libros_recomendados"
+
+<PageTitle>Libros recomendados</PageTitle>
+
+<div class="contenedor_medio">
+    <div class="contenedor_libro">
+        @foreach (String item in System.IO.Directory.GetFiles("wwwroot/Libros"))
+        {
+            //String bookImage = );
+            <img src = "El imperio final.jpg">
+            String title = item.Substring(item.IndexOf(@"/")+1,item.IndexOf(".")-(item.IndexOf(@"/")+1));
+            <p>@title</p>
+        }
+    </div>
+</div>
