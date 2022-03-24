@@ -6,10 +6,17 @@
     <div class="contenedor_libro">
         @foreach (String item in System.IO.Directory.GetFiles("wwwroot/Libros"))
         {
-            //String bookImage = );
-            <img src = "El imperio final.jpg">
-            String title = item.Substring(item.IndexOf(@"/")+1,item.IndexOf(".")-(item.IndexOf(@"/")+1));
-            <p>@title</p>
+            String bookImage = item.Substring(item.IndexOf(@"/")+1);
+            int firstIndex = bookImage.IndexOf(@"/")+1;
+            int lastIndex = bookImage.IndexOf(@".")-firstIndex;
+            String title = bookImage.Substring(firstIndex,lastIndex);
+            <div class ="libro">
+                <img src = "@bookImage" class = "libro_img">
+                <p class="titulo_libro">
+                    <h2 class="titulo_libro">Titulo del libro: @title</h2>
+                </p>
+            </div>
         }
     </div>
 </div>
+
