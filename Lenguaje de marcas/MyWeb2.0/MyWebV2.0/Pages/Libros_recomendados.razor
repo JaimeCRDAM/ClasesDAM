@@ -1,22 +1,39 @@
 @page "/libros_recomendados"
-
+@using System.Text.Json;
+@inject IJSRuntime JS
 <PageTitle>Libros recomendados</PageTitle>
-
 <div class="contenedor_medio">
     <div class="contenedor_libro">
+        @code{
+            int counter = 1;
+        }
+        <button @onclick="Demo">Hola</button>
         @foreach (String item in System.IO.Directory.GetFiles("wwwroot/Libros"))
         {
             String bookImage = item.Substring(item.IndexOf(@"/")+1);
             int firstIndex = bookImage.IndexOf(@"/")+1;
             int lastIndex = bookImage.IndexOf(@".")-firstIndex;
             String title = bookImage.Substring(firstIndex,lastIndex);
+
             <div class ="libro">
-                <img src = "@bookImage" class = "libro_img">
+                <img src = "@bookImage" class = "libro_img"  name="img_libro">
                 <p class="titulo_libro">
                     <h2 class="titulo_libro">Titulo del libro: @title</h2>
                 </p>
             </div>
+            counter++;
         }
-    </div>
+   </div>
 </div>
+
+@code{
+    private ElementReference libro_div;
+
+
+    public async void Demo()
+    {
+        Console.WriteLine(System.Text.Json.JsonSerializer.Serialize(libro_div));
+    }
+    
+}
 
