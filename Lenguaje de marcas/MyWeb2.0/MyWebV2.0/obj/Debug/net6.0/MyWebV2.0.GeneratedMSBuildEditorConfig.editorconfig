@@ -31,6 +31,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/Pages/PrivatePage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmF0ZVBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,39 @@
+@page "/login"
+@inject NavigationManager NavigationManager
+
+<EditForm Model=@model OnValidSubmit=onValidSubmit>
+    <div>
+        <label>Usuario</label>
+        <InputText @bind-Value=model.Username></InputText>
+    </div>
+    <div>
+        <label>Password</label>
+        <InputText @bind-Value=model.Password type="password"></InputText>
+        <ValidationMessage For="@(() => model.Password)"/>
+    </div>
+    <div>
+        <button>login</button>
+    </div>
+</EditForm>
+
+
+
+
+@code{
+    private MyWeb.Models.Login model = new MyWeb.Models.Login();
+    
+    private void onValidSubmit(){
+        try{
+            if (model.Username == "1234" && model.Password == "1234"){
+                Console.WriteLine("A");
+                NavigationManager.NavigateTo("/");
+            } else{
+                Console.WriteLine("f");   
+            }
+        }catch(Exception e){
+        }
+
+    }
+
+
+}

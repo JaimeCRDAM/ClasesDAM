@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PsJ0UZalWOcZ10NTiJPtmAikACUTEMkfVroKrXMfcoA=",
+  "Hash": "VCG8xcunb8NE6dRL+DYnamgXlo4GlupST5xj+pTpeI0=",
   "Source": "MyWebV2.0",
   "BasePath": "_content/MyWebV2.0",
   "Mode": "Default",
@@ -321,6 +321,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Libros/La sombra del viento.jpeg"
+    },
+    {
+      "Identity": "/home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/wwwroot/LibrosJson.json",
+      "SourceId": "MyWebV2.0",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/wwwroot/",
+      "BasePath": "_content/MyWebV2.0",
+      "RelativePath": "LibrosJson.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/LibrosJson.json"
     },
     {
       "Identity": "/home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/wwwroot/logopagina.png",

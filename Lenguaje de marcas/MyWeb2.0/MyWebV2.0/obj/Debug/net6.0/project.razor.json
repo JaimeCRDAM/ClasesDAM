@@ -12,6 +12,81 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": 298132593,
+        "Kind": "Components.Component",
+        "Name": "MyWeb.Components.Accounts.AppRouteView",
+        "AssemblyName": "MyWebV2.0",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AppRouteView"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "RouteData",
+            "TypeName": "Microsoft.AspNetCore.Components.RouteData",
+            "IsEditorRequired": true,
+            "Documentation": "\n            <summary>\n            Gets or sets the route data. This determines the page that will be\n            displayed and the parameter values that will be supplied to the page.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "RouteData"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "DefaultLayout",
+            "TypeName": "System.Type",
+            "Documentation": "\n            <summary>\n            Gets or sets the type of a layout to be used if the page does not\n            declare any layout. If specified, the type must implement <see cref=\"T:Microsoft.AspNetCore.Components.IComponent\" />\n            and accept a parameter named <see cref=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\" />.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "DefaultLayout"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyWeb.Components.Accounts.AppRouteView"
+        }
+      },
+      {
+        "HashCode": 106089982,
+        "Kind": "Components.Component",
+        "Name": "MyWeb.Components.Accounts.AppRouteView",
+        "AssemblyName": "MyWebV2.0",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MyWeb.Components.Accounts.AppRouteView"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "RouteData",
+            "TypeName": "Microsoft.AspNetCore.Components.RouteData",
+            "IsEditorRequired": true,
+            "Documentation": "\n            <summary>\n            Gets or sets the route data. This determines the page that will be\n            displayed and the parameter values that will be supplied to the page.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "RouteData"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "DefaultLayout",
+            "TypeName": "System.Type",
+            "Documentation": "\n            <summary>\n            Gets or sets the type of a layout to be used if the page does not\n            declare any layout. If specified, the type must implement <see cref=\"T:Microsoft.AspNetCore.Components.IComponent\" />\n            and accept a parameter named <see cref=\"P:Microsoft.AspNetCore.Components.LayoutComponentBase.Body\" />.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "DefaultLayout"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyWeb.Components.Accounts.AppRouteView",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 198896917,
         "Kind": "Components.Component",
         "Name": "MyWebV2._0.Pages.Index",
@@ -45,35 +120,68 @@
         }
       },
       {
-        "HashCode": -1601333220,
+        "HashCode": -602247628,
         "Kind": "Components.Component",
-        "Name": "MyWebV2._0.Pages.FetchData",
+        "Name": "MyWebV2._0.Pages.Login",
         "AssemblyName": "MyWebV2.0",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "FetchData"
+            "TagName": "Login"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MyWebV2._0.Pages.FetchData"
+          "Common.TypeName": "MyWebV2._0.Pages.Login"
         }
       },
       {
-        "HashCode": -1603970593,
+        "HashCode": 1249970920,
         "Kind": "Components.Component",
-        "Name": "MyWebV2._0.Pages.FetchData",
+        "Name": "MyWebV2._0.Pages.Login",
         "AssemblyName": "MyWebV2.0",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "MyWebV2._0.Pages.FetchData"
+            "TagName": "MyWebV2._0.Pages.Login"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MyWebV2._0.Pages.FetchData",
+          "Common.TypeName": "MyWebV2._0.Pages.Login",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1023869609,
+        "Kind": "Components.Component",
+        "Name": "MyWebV2._0.Pages.PrivatePage",
+        "AssemblyName": "MyWebV2.0",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "PrivatePage"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyWebV2._0.Pages.PrivatePage"
+        }
+      },
+      {
+        "HashCode": -1534376118,
+        "Kind": "Components.Component",
+        "Name": "MyWebV2._0.Pages.PrivatePage",
+        "AssemblyName": "MyWebV2.0",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MyWebV2._0.Pages.PrivatePage"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyWebV2._0.Pages.PrivatePage",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -127,6 +235,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "MyWebV2._0.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1601333220,
+        "Kind": "Components.Component",
+        "Name": "MyWebV2._0.Pages.FetchData",
+        "AssemblyName": "MyWebV2.0",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyWebV2._0.Pages.FetchData"
+        }
+      },
+      {
+        "HashCode": -1603970593,
+        "Kind": "Components.Component",
+        "Name": "MyWebV2._0.Pages.FetchData",
+        "AssemblyName": "MyWebV2.0",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MyWebV2._0.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyWebV2._0.Pages.FetchData",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -316,39 +457,6 @@
         }
       },
       {
-        "HashCode": -2052486864,
-        "Kind": "Components.Component",
-        "Name": "MyWebV2._0.Shared.NavMenu",
-        "AssemblyName": "MyWebV2.0",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MyWebV2._0.Shared.NavMenu"
-        }
-      },
-      {
-        "HashCode": -1678576238,
-        "Kind": "Components.Component",
-        "Name": "MyWebV2._0.Shared.NavMenu",
-        "AssemblyName": "MyWebV2.0",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MyWebV2._0.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MyWebV2._0.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 1550713080,
         "Kind": "Components.Component",
         "Name": "MyWebV2._0.Shared.MainLayout",
@@ -441,6 +549,39 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "MyWebV2._0.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -2052486864,
+        "Kind": "Components.Component",
+        "Name": "MyWebV2._0.Shared.NavMenu",
+        "AssemblyName": "MyWebV2.0",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyWebV2._0.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": -1678576238,
+        "Kind": "Components.Component",
+        "Name": "MyWebV2._0.Shared.NavMenu",
+        "AssemblyName": "MyWebV2.0",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MyWebV2._0.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyWebV2._0.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -16746,6 +16887,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/Pages/Login.razor",
+      "TargetPath": "Pages\\Login.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "/home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/App.razor",
       "TargetPath": "App.razor",
       "FileKind": "component"
@@ -16773,6 +16919,11 @@
     {
       "FilePath": "/home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/Pages/Counter.razor",
       "TargetPath": "Pages\\Counter.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/Pages/PrivatePage.razor",
+      "TargetPath": "Pages\\PrivatePage.razor",
       "FileKind": "component"
     },
     {

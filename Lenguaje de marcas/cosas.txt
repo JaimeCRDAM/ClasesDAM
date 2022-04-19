@@ -1,0 +1,47 @@
+ Gestion de la informacion:
+ 
+ Es el ciclo de la actividad en la que se organiza la informacion y se desarrolla, simula o modela el sistema que se vaya a usar y se declaran los usos de esta, quien los va a usar, quien los va a almacenar/organizar/gestionar
+ 
+ Que es un ERP:
+ 
+ Es un sistema que unifica todas las operaciones de la empresa en un mismo programa.
+ 
+ Cada tipo de operacion o cada necesidad se realiza de manera modular, cada modulo tiene un solo uso.
+ 
+ Algunos de los modulos principales son:
+ Unificación y trazabilidad de todos los procesos en un mismo sistema.
+Optimización de los procesos empresariales.
+Planificación de los recursos.
+Automatización de los procesos entre las áreas de la empresa.
+Acceso a los datos y creación de información estructurada.
+Posibilidad de compartir información entre todos los componentes de la organización.
+Eliminación de datos y operaciones innecesarias de reingeniería.
+
+Las caracteristicas que definen un ERP son:
+
+Modulares: No todos los integrantes de la empresa necesitan acceso a todo el programa, por lo que al ser modulares, se pueden instalar unicamente los modulos requeridos para el trabajo que desarrolla la persona en concreto
+
+Configurables: Puesto que es complicado hacer un programa que sirva a todo el mundo por igual, los ERP mas avanzados implementan API's para crear los propios modulos en lenguajes de cuarta generacion (Shell, SQL, ...)
+
+Especializados: Un ERP avanzado ofrece soluciones por defecto a problemas reales que ocurren en las empresas
+
+Que es un CMR:
+
+Un sistema que analiza los datos de los clientes asi como las comunicaciones cliente-empresa para asi ser mas eficientes en la relacion con el cliente (Esto caeria en la parte de analisis de datos)
+
+Ventajas/Desventajas ERP vs CRM
+
+Segun esta presentacion y en la informacion que he recopilado, son independientes uno del otro, sus funciones no son ni las mismas, uno es analisis de datos de clientes y el otro son funcionalidades dentro de las empresas.
+
+
+Data reporting:
+
+Es el paso justo anterior a el analisis de datos, aqui lo que se busca es enseñar una representacion de los datos que se tengan.
+
+Sirve para tener una visualizacion de los datos de forma accesible.
+
+Pueden verse a simple vista problemas que haya con los datos que entran, igual no hay ninguna valoracion en ningun producto y el problema es que a la hora de recoger los datos, no se estan obteniendo todos los datos que deberian.
+
+Dos ejemplos de Data reporting tools (Open source):
+Birt-https://eclipse.github.io/birt-website/
+KoolReport-https://www.koolreport.com

@@ -8,10 +8,6 @@
     height: fit-content;
 }
 
-.libro {
-    display: none;
-}
-
 .libro_img {
     overflow: hidden;
     float: left;

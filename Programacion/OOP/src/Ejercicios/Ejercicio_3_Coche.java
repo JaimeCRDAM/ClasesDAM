@@ -23,6 +23,7 @@ public class Ejercicio_3_Coche {
     private int marchaActual;
     private int subirMarcha;
     private int bajarMarcha;
+    //Private variables for the class  //
 
     public Ejercicio_3_Coche(){
         motorEncendido = false;

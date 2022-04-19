@@ -1,39 +1,51 @@
 @page "/libros_recomendados"
 @using System.Text.Json;
+@using MyWeb.Models;
 @inject IJSRuntime JS
 <PageTitle>Libros recomendados</PageTitle>
 <div class="contenedor_medio">
     <div class="contenedor_libro">
-        @code{
-            int counter = 1;
-        }
-        <button @onclick="Demo">Hola</button>
-        @foreach (String item in System.IO.Directory.GetFiles("wwwroot/Libros"))
-        {
-            String bookImage = item.Substring(item.IndexOf(@"/")+1);
-            int firstIndex = bookImage.IndexOf(@"/")+1;
-            int lastIndex = bookImage.IndexOf(@".")-firstIndex;
-            String title = bookImage.Substring(firstIndex,lastIndex);
-
-            <div class ="libro">
-                <img src = "@bookImage" class = "libro_img"  name="img_libro">
-                <p class="titulo_libro">
-                    <h2 class="titulo_libro">Titulo del libro: @title</h2>
-                </p>
-            </div>
-            counter++;
-        }
+        <div class="Libro">
+            <img src = "@currentBook.rutaImg" class = "libro_img">
+            <p class="titulo_libro">
+                <h2 class="titulo_libro">Titulo del libro: @currentBook.titulo</h2>
+            </p>
+            <p class="titulo_libro">
+                <h2 class="titulo_libro">Autor libro: Brandon Sanderson </h2>
+            </p>
+        </div>
    </div>
 </div>
 
 @code{
-    private ElementReference libro_div;
-
-
-    public async void Demo()
+    protected override async Task OnInitializedAsync()
     {
-        Console.WriteLine(System.Text.Json.JsonSerializer.Serialize(libro_div));
+        getLibrosRecomendados().ForEach(x => Console.WriteLine(x.titulo));
+    }
+    private static List<Libro> getLibrosRecomendados()
+    {
+        string[] files = Directory.GetFiles(@"wwwroot");
+        List<Libro> libros = new List<Libro>();
+        foreach (string item in files)
+        {
+            if(item.Contains("LibrosJson")) {
+                string json = File.ReadAllText(item);
+                libros = JsonSerializer.Deserialize<List<Libro>>(json);
+                return libros;
+            }
+        }
+        return libros;
+    }
+    static int counter = 0;
+    static Libro currentBook = getLibrosRecomendados()[counter];
+    public static void NextBook()
+    {
+        counter++;
+        if (counter >= getLibrosRecomendados().Count)
+        {
+            counter = 0;
+        }
+        currentBook = getLibrosRecomendados()[counter];
     }
     
 }
-
