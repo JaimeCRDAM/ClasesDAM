@@ -3,24 +3,34 @@
 @using MyWeb.Models;
 @inject IJSRuntime JS
 <PageTitle>Libros recomendados</PageTitle>
-<div class="contenedor_medio">
+<div>
     <div class="contenedor_libro">
         <div class="Libro">
             <img src = "@currentBook.rutaImg" class = "libro_img">
             <p class="titulo_libro">
-                <h2 class="titulo_libro">Titulo del libro: @currentBook.titulo</h2>
+                <h2 class="titulo_libro">Titulo del libro:</h2>
+                <h1>@currentBook.titulo</h1>
             </p>
             <p class="titulo_libro">
-                <h2 class="titulo_libro">Autor libro: Brandon Sanderson </h2>
+                <h2 class="titulo_libro">Autor libro:</h2>
+                <h1>@currentBook.autor</h1>
+            </p>
+            <p class="descripcion">
+                <h2 class="titulo_libro">Descripcion: </h2>
+                <p>@currentBook.descripcion</p>
             </p>
         </div>
+   </div>
+   <div class="buttons">        
+        <button class="anterior" @onclick="@PreviousBook">Anterior</button>
+        <button class="siguiente" @onclick="@NextBook">Siguiente</button>
    </div>
 </div>
 
 @code{
     protected override async Task OnInitializedAsync()
     {
-        getLibrosRecomendados().ForEach(x => Console.WriteLine(x.titulo));
+       getLibrosRecomendados();
     }
     private static List<Libro> getLibrosRecomendados()
     {
@@ -44,6 +54,15 @@
         if (counter >= getLibrosRecomendados().Count)
         {
             counter = 0;
+        }
+        currentBook = getLibrosRecomendados()[counter];
+    }
+    public static void PreviousBook()
+    {
+        counter--;
+        if (counter < 0)
+        {
+            counter = getLibrosRecomendados().Count - 1;
         }
         currentBook = getLibrosRecomendados()[counter];
     }

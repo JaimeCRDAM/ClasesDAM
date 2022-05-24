@@ -49,6 +49,13 @@
     background-color: rgba(255,255,255,0.1);
     color: white;
 }
+.contenedor_img[b-i60etcamt3]{
+    width: 50%;
+    height: 75%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 @media (min-width: 641px) {
     .navbar-toggler[b-i60etcamt3] {

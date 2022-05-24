@@ -1,42 +1,36 @@
 ﻿@page "/formulario"
-@attribute [Authorize]
 <PageTitle>Weather forecast</PageTitle>
 
 @using MyWebV2._0.Data
 @inject WeatherForecastService ForecastService
 
-<h1>Weather forecast</h1>
-
-<p>This component demonstrates fetching data from a service.</p>
-
-@if (forecasts == null)
-{
-    <p><em>Loading...</em></p>
-}
-else
-{
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Date</th>
-                <th>Temp. (C)</th>
-                <th>Temp. (F)</th>
-                <th>Summary</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var forecast in forecasts)
-            {
-                <tr>
-                    <td>@forecast.Date.ToShortDateString()</td>
-                    <td>@forecast.TemperatureC</td>
-                    <td>@forecast.TemperatureF</td>
-                    <td>@forecast.Summary</td>
-                </tr>
-            }
-        </tbody>
-    </table>
-}
+        <div class="contenedor_medio">
+            <form class ="form">
+                <div style="float:left;text-align:left">
+                    <label for="nombre" >Nombre:</label><br>
+                    <label style="padding-top:8px;" for="apellido">Apellido:</label><br>
+                    <label style="padding-top:7px" for="direccion">Direccion:</label><br>
+                    <label style="padding-top:6px" for="correo">Correo electronico:</label><br>
+                    <label style="padding-top:6px" for="password">Contraseña Temerant:</label><br>
+                    <label style="padding-top:6px" for="ISBN">ISBN del libro:</label><br>
+                    <label style="padding-top:6px" for="envio">Envio seguro?</label><br>
+                </div>
+                <div style="float:left; padding-left:5%">                
+                    <input class ="form" type="text" id="nombre" name="nombre" required><br>
+                    <input class ="form" type="text" id="apellido" name="apellido" required><br>
+                    <input class ="form" type="text" id="direccion" name="direccion" required><br>
+                    <input class ="form" type="email" id="correo" name="correo" required><br>
+                    <input class ="form" type="password" id="password" name="password" required><br>
+                    <input class ="form" type="text" id="ISBN" name="ISBN" required><br>
+                    Si<input class ="form" type="radio" id="envio" name="envio">
+                    No<input class ="form" type="radio" id="envio" name="envio"><br>                    
+                </div>
+                <div style="float:left">
+                    <input style="color: black;"  type="submit" value="Enviar">
+                    <input style="color: black;"  type="reset" value="Borrar">
+                </div>
+            </form>
+        </div>
 
 @code {
     private WeatherForecast[]? forecasts;

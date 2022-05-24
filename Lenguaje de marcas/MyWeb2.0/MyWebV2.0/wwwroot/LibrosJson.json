@@ -1,7 +1,20 @@
 [
     {
-    "titulo": "El nombre del viento",
-    "descripcion": "Primer libro de la saga fantástica Nacidos de la Bruma. Durante mil años, la sociedad del Imperio Final ha sido dominada por la nobleza, que se sustenta de la esclavización de la población skaa.",
-    "rutaImg": "Libros/El nombre del viento.jpg"
+        "titulo": "El nombre del viento",
+        "descripcion": "Primera entrega de la saga fantástica “Crónica del Asesino de Reyes”. En algún lugar escondido entre los cuatro rincones de la civilización, se esconde el hombre que se convirtió en mito. El hombre con el pelo de fuego. El hombre que vestía una capa de un negro puro como la noche. El hombre que luchó con dragones y asesinó a reyes Acompaña a Cronista a descubrir la verdadera historia de Kvothe el Sin Sangre, contada de sus propios labios. Una trepidante historia de comedia, tragedia, y amor. ",
+        "rutaImg": "Libros/El nombre del viento.jpeg",
+        "autor": "Patrick Rothfuss"
+    },
+    {
+        "titulo": "El imperio final",
+        "descripcion": "Primer libro de la saga fantástica Nacidos de la Bruma. Durante mil años, la sociedad del Imperio Final ha sido dominada por la nobleza, que se sustenta de la esclavización de la población skaa. Adéntrate en la ciudad de Luthadel, donde Vin, Kelsier y su banda organizarán una revolución para derrocar al tirano Lord Legislador de una vez por todas y acabar con las desigualdades de la sociedad.",
+        "rutaImg": "Libros/El imperio final.jpg",
+        "autor": "Brandon Sanderson"
+    },
+    {
+        "titulo": "La sombra del viento",
+        "descripcion": "Muy escondido, en algún rincón de la ciudad de Barcelona, se encuentra el cementerio de los libros olvidados, un lugar perdido en el tiempo en el que uno puede encontrar miles de libros que, tal vez, ya no vivan en la memoria de nadie. Acompaña a Daniel y Fermín por la enigmática Barcelona de mediados del siglo 20 en esta primera entrega de la saga de “El Cementerio de los Libros Olvidados”, una trepidante historia de intriga, misterio y amor en la que descubrirás algunos de los muchos secretos paranormales que esconde la ciudad condal.",
+        "rutaImg": "Libros/La sombra del viento.jpeg",
+        "autor": "Carlos Ruiz Zafón"
     }
 ]

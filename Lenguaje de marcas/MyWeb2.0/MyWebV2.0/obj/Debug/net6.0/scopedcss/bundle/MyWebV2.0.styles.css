@@ -1,3 +1,11 @@
+/* _content/MyWebV2.0/Pages/Index.razor.rz.scp.css */
+.esta_pagina[b-fbji2hdxjc] {
+    font-weight: bolder;
+}
+
+.contenedor_medio[b-fbji2hdxjc]{
+    text-align: center;
+}
 /* _content/MyWebV2.0/Pages/Libros_recomendados.razor.rz.scp.css */
 .esta_pagina[b-nusrafdcf3] {
     font-weight: bolder;
@@ -12,22 +20,25 @@
 .libro_img[b-nusrafdcf3] {
     overflow: hidden;
     float: left;
+    width: 20%;
+    height: 30%;
 
 }
 
 .titulo_libro[b-nusrafdcf3] {
     overflow: hidden;
-    text-align: left;
+    text-align: center;
 }
 .descripcion[b-nusrafdcf3]{
     overflow: hidden;
 }
-
+.buttons[b-nusrafdcf3]{
+    overflow: hidden;
+    text-align: center;
+}
 .anterior[b-nusrafdcf3], .siguiente[b-nusrafdcf3] {
-    cursor: pointer;
+    float: left;
     width: 50%;
-    padding: 16px;
-    margin-top: -22px;
     color: #234b9d;
     font-weight: bold;
     font-size: 18px;
@@ -95,6 +106,13 @@ img[b-zfoe659jav]{
 .nav-item[b-i60etcamt3]  a:hover {
     background-color: rgba(255,255,255,0.1);
     color: white;
+}
+.contenedor_img[b-i60etcamt3]{
+    width: 50%;
+    height: 75%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 @media (min-width: 641px) {

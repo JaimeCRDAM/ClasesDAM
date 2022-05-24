@@ -1,7 +1,11 @@
 package Ejercicios.SubClasesEjercicios.Serpiente;
 
+import java.util.ArrayList;
+
+import lombok.Data;
 
 
+@Data
 public class ClaseSerpiente {
     String[] colores = new String[]{"r", "v", "g"};
     public String[] CSerpiente;
@@ -29,6 +33,8 @@ public class ClaseSerpiente {
         CSerpiente = new String[array.length];
         CSerpiente = array;
         array = null;
+        ArrayList<Integer> lista = new ArrayList<>();
+        
     }
 
     private void reconstruirArray(int nArray){

@@ -87,105 +87,6 @@
         }
       },
       {
-        "HashCode": 198896917,
-        "Kind": "Components.Component",
-        "Name": "MyWebV2._0.Pages.Index",
-        "AssemblyName": "MyWebV2.0",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MyWebV2._0.Pages.Index"
-        }
-      },
-      {
-        "HashCode": 191115199,
-        "Kind": "Components.Component",
-        "Name": "MyWebV2._0.Pages.Index",
-        "AssemblyName": "MyWebV2.0",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MyWebV2._0.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MyWebV2._0.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -602247628,
-        "Kind": "Components.Component",
-        "Name": "MyWebV2._0.Pages.Login",
-        "AssemblyName": "MyWebV2.0",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Login"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MyWebV2._0.Pages.Login"
-        }
-      },
-      {
-        "HashCode": 1249970920,
-        "Kind": "Components.Component",
-        "Name": "MyWebV2._0.Pages.Login",
-        "AssemblyName": "MyWebV2.0",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MyWebV2._0.Pages.Login"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MyWebV2._0.Pages.Login",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1023869609,
-        "Kind": "Components.Component",
-        "Name": "MyWebV2._0.Pages.PrivatePage",
-        "AssemblyName": "MyWebV2.0",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "PrivatePage"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MyWebV2._0.Pages.PrivatePage"
-        }
-      },
-      {
-        "HashCode": -1534376118,
-        "Kind": "Components.Component",
-        "Name": "MyWebV2._0.Pages.PrivatePage",
-        "AssemblyName": "MyWebV2.0",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MyWebV2._0.Pages.PrivatePage"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MyWebV2._0.Pages.PrivatePage",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1900726353,
         "Kind": "Components.Component",
         "Name": "MyWebV2._0.Pages.Counter",
@@ -239,35 +140,68 @@
         }
       },
       {
-        "HashCode": -1601333220,
+        "HashCode": -1023869609,
         "Kind": "Components.Component",
-        "Name": "MyWebV2._0.Pages.FetchData",
+        "Name": "MyWebV2._0.Pages.PrivatePage",
         "AssemblyName": "MyWebV2.0",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "FetchData"
+            "TagName": "PrivatePage"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MyWebV2._0.Pages.FetchData"
+          "Common.TypeName": "MyWebV2._0.Pages.PrivatePage"
         }
       },
       {
-        "HashCode": -1603970593,
+        "HashCode": -1534376118,
         "Kind": "Components.Component",
-        "Name": "MyWebV2._0.Pages.FetchData",
+        "Name": "MyWebV2._0.Pages.PrivatePage",
         "AssemblyName": "MyWebV2.0",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "MyWebV2._0.Pages.FetchData"
+            "TagName": "MyWebV2._0.Pages.PrivatePage"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MyWebV2._0.Pages.FetchData",
+          "Common.TypeName": "MyWebV2._0.Pages.PrivatePage",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 198896917,
+        "Kind": "Components.Component",
+        "Name": "MyWebV2._0.Pages.Index",
+        "AssemblyName": "MyWebV2.0",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyWebV2._0.Pages.Index"
+        }
+      },
+      {
+        "HashCode": 191115199,
+        "Kind": "Components.Component",
+        "Name": "MyWebV2._0.Pages.Index",
+        "AssemblyName": "MyWebV2.0",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MyWebV2._0.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyWebV2._0.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -301,6 +235,72 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "MyWebV2._0.Pages.Libros_recomendados",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -602247628,
+        "Kind": "Components.Component",
+        "Name": "MyWebV2._0.Pages.Login",
+        "AssemblyName": "MyWebV2.0",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Login"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyWebV2._0.Pages.Login"
+        }
+      },
+      {
+        "HashCode": 1249970920,
+        "Kind": "Components.Component",
+        "Name": "MyWebV2._0.Pages.Login",
+        "AssemblyName": "MyWebV2.0",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MyWebV2._0.Pages.Login"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyWebV2._0.Pages.Login",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1601333220,
+        "Kind": "Components.Component",
+        "Name": "MyWebV2._0.Pages.FetchData",
+        "AssemblyName": "MyWebV2.0",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyWebV2._0.Pages.FetchData"
+        }
+      },
+      {
+        "HashCode": -1603970593,
+        "Kind": "Components.Component",
+        "Name": "MyWebV2._0.Pages.FetchData",
+        "AssemblyName": "MyWebV2.0",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MyWebV2._0.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyWebV2._0.Pages.FetchData",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

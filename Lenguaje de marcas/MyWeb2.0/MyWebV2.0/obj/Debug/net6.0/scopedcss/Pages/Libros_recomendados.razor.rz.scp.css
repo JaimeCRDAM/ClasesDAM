@@ -11,22 +11,25 @@
 .libro_img[b-nusrafdcf3] {
     overflow: hidden;
     float: left;
+    width: 20%;
+    height: 30%;
 
 }
 
 .titulo_libro[b-nusrafdcf3] {
     overflow: hidden;
-    text-align: left;
+    text-align: center;
 }
 .descripcion[b-nusrafdcf3]{
     overflow: hidden;
 }
-
+.buttons[b-nusrafdcf3]{
+    overflow: hidden;
+    text-align: center;
+}
 .anterior[b-nusrafdcf3], .siguiente[b-nusrafdcf3] {
-    cursor: pointer;
+    float: left;
     width: 50%;
-    padding: 16px;
-    margin-top: -22px;
     color: #234b9d;
     font-weight: bold;
     font-size: 18px;

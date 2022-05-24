@@ -27,10 +27,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
 [/home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -46,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 [/home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
+
+[/home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-fbji2hdxjc
 
 [/home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/Pages/Libros_recomendados.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGlicm9zX3JlY29tZW5kYWRvcy5yYXpvcg==

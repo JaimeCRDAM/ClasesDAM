@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VCG8xcunb8NE6dRL+DYnamgXlo4GlupST5xj+pTpeI0=",
+  "Hash": "VRnd+4Z8ODREb2g0Ru/wfpYZg1lXHl/fcf7ENV0/+xY=",
   "Source": "MyWebV2.0",
   "BasePath": "_content/MyWebV2.0",
   "Mode": "Default",
@@ -255,6 +255,23 @@
       "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
+      "Identity": "/home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/wwwroot/facebooklogo.png",
+      "SourceId": "MyWebV2.0",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/wwwroot/",
+      "BasePath": "_content/MyWebV2.0",
+      "RelativePath": "facebooklogo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/facebooklogo.png"
+    },
+    {
       "Identity": "/home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/wwwroot/favicon.ico",
       "SourceId": "MyWebV2.0",
       "SourceType": "Discovered",
@@ -270,6 +287,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/wwwroot/instagramlogo.png",
+      "SourceId": "MyWebV2.0",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/wwwroot/",
+      "BasePath": "_content/MyWebV2.0",
+      "RelativePath": "instagramlogo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/instagramlogo.png"
     },
     {
       "Identity": "/home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/wwwroot/Libros/El imperio final.jpg",
@@ -355,6 +389,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/logopagina.png"
+    },
+    {
+      "Identity": "/home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/wwwroot/reading-read.gif",
+      "SourceId": "MyWebV2.0",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/wwwroot/",
+      "BasePath": "_content/MyWebV2.0",
+      "RelativePath": "reading-read.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/reading-read.gif"
+    },
+    {
+      "Identity": "/home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/wwwroot/twitterlogo.png",
+      "SourceId": "MyWebV2.0",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/dam106/Escritorio/Clases/Lenguaje de marcas/MyWeb2.0/MyWebV2.0/wwwroot/",
+      "BasePath": "_content/MyWebV2.0",
+      "RelativePath": "twitterlogo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/twitterlogo.png"
     }
   ]
 }

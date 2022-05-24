@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE libreria [
+<!ELEMENT libreria (nombre, web, libros, compras)> 
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT web (#PCDATA)>
+    <!ELEMENT libros (libro+)>
+        <!ELEMENT libro (titulo, autor, precio, paginas, editorial)>
+        <!ATTLIST libro isbn ID #REQUIRED> 
+            <!ELEMENT titulo (#PCDATA)>
+            <!ELEMENT autor (#PCDATA)>
+            <!ELEMENT precio (#PCDATA)>
+            <!ELEMENT paginas (#PCDATA)>
+            <!ELEMENT editorial (#PCDATA)>
+    <!ELEMENT compras (compra+)>
+        <!ELEMENT compra (fecha, items, precioTotal)>
+        <!ATTLIST compra factura ID #REQUIRED> 
+            <!ELEMENT fecha (#PCDATA)>
+            <!ELEMENT items EMPTY>
+            <!ATTLIST items isbn IDREFS #REQUIRED>
+            <!ELEMENT precioTotal (#PCDATA)>
+]>
+
+<libreria>
+    <nombre>Temerant</nombre>
+    <web>http://www.Temerant.es</web>
+    <libros>
+        <libro isbn="L1234">
+            <titulo>a</titulo>
+            <autor>a</autor>
+            <precio>a</precio>
+            <paginas>a</paginas>
+            <editorial>a</editorial>
+        </libro>
+        <libro isbn="L1235">
+            <titulo>a</titulo>
+            <autor>a</autor>
+            <precio>a</precio>
+            <paginas>a</paginas>
+            <editorial>a</editorial>
+        </libro>
+        <libro isbn="L1236">
+            <titulo>a</titulo>
+            <autor>a</autor>
+            <precio>a</precio>
+            <paginas>a</paginas>
+            <editorial>a</editorial>
+        </libro>
+        <libro isbn="L1237">
+            <titulo>a</titulo>
+            <autor>a</autor>
+            <precio>a</precio>
+            <paginas>a</paginas>
+            <editorial>a</editorial>
+        </libro>
+        <libro isbn="L1238">
+            <titulo>a</titulo>
+            <autor>a</autor>
+            <precio>a</precio>
+            <paginas>a</paginas>
+            <editorial>a</editorial>
+        </libro>
+    </libros>
+    <compras>
+        <compra factura="F0">
+            <fecha>q</fecha>
+            <items isbn = "L1237"></items>
+            <precioTotal>8</precioTotal>
+        </compra>
+        <compra factura="F1">
+            <fecha>q</fecha>
+            <items isbn = "L1234"></items>
+            <precioTotal>10</precioTotal>
+        </compra>
+        <compra factura="F2">
+            <fecha>q</fecha>
+            <items isbn = "L1236"></items>
+            <precioTotal>15</precioTotal>
+        </compra>
+    </compras>
+</libreria>

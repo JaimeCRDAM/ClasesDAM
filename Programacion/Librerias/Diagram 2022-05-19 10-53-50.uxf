@@ -1,0 +1,17 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>320</x><y>20</y><w>210</w><h>90</h></coordinates><panel_attributes>Prestamo
+--
+Codigo_Libro
+Numero_Socio
+Fecha_Entrega</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>590</x><y>20</y><w>210</w><h>110</h></coordinates><panel_attributes>Libro
+--
+Codigo_Libro
+Titulo_Libro
+Autor_Libro
+Disponible
+Localizacion</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>70</x><y>40</y><w>210</w><h>110</h></coordinates><panel_attributes>Socio
+--
+Numero_Socio
+DNI
+Nombre
+Direccion
+Numero_Libros_Prestados</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>60</y><w>70</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>50;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>520</x><y>40</y><w>90</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;70;10</additional_attributes></element></diagram>
